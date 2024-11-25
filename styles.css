@@ -1,12 +1,20 @@
-
-/* Your CSS Code here. */
-.item-1{
-	width: 100px;
-	height: 100px;
-	background-color: red;
+.holder {
+  display: flex;           /* Enable flexbox layout */
+  justify-content: center; /* Horizontally center items */
+  align-items: center;     /* Vertically center items */
+  height: 100vh;           /* Set height to 100% of the viewport height */
+  width: 100vw;            /* Set width to 100% of the viewport width */
+  margin: 0;               /* Remove any default margin */
 }
 
-.Holder{
-	width: 100vw;
-	height: 100vh;
+/* Style the item-1 */
+.item {
+  width: 100px;            /* Set width to 100px */
+  height: 100px;           /* Set height to 100px */
+  background-color: red;   /* Set the background color to red */
+  display: flex;           /* Enable flexbox to center content inside the item */
+  justify-content: center; /* Center content horizontally */
+  align-items: center;     /* Center content vertically */
+  color: white;            /* Set text color to white */
+  font-size: 14px;         /* Optional: adjust font size */
 }
